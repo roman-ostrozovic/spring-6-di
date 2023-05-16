@@ -1,15 +1,15 @@
 package guru.springframework.spring6di.controllers;
 
-import guru.springframework.spring6di.services.GreetingServiceImpl;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 public class PropertyInjectedControllerTest {
 
     //Because we want manage this controller with Spring Boot.
+
     @Autowired
     PropertyInjectedController propertyInjectedController;
 
